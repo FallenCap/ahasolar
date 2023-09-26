@@ -4,7 +4,7 @@ import Input from "./components/Input";
 import "./App.css";
 
 const App = () => {
-  const [list, setList] = useState(0);
+  const [list, setList] = useState();
   const [arr, setArr] = useState([]);
   const [isChecked, setIsChecked] = useState(false);
 
